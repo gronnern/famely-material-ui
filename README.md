@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Famely
 
-## Getting Started
+Famely er en familieorganiseringsapp bygget med Next.js og Material-UI. Appen er designet for å hjelpe familier med å holde oversikt over aktiviteter, oppgaver og hendelser på en enkel og intuitiv måte.
 
-First, run the development server:
+## Kom i gang
+
+Følg disse trinnene for å sette opp prosjektet lokalt.
+
+### Forutsetninger
+
+- Node.js (versjon 20)
+- npm
+
+### Installasjon
+
+1. Klon repositoriet:
+
+```bash
+git clone https://github.com/gronnern/famely.git
+cd famely
+```
+
+## Installer avhengigheter:
+
+```bash
+npm install
+```
+
+## Kjøring av appen
+
+For å kjøre appen lokalt, bruk følgende kommando:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Åpne http://localhost:3000 i nettleseren din for å se appen.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Testing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Enhetstester
 
-## Learn More
+Prosjektet bruker Jest og React Testing Library for enhetstesting.
 
-To learn more about Next.js, take a look at the following resources:
+Kjør enhetstestene:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm test
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Ende-til-ende tester
 
-## Deploy on Vercel
+Prosjektet bruker Playwright for ende-til-ende testing.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Kjør ende-til-ende testene:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run test:e2e
+```
