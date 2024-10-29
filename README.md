@@ -16,8 +16,8 @@ Følg disse trinnene for å sette opp prosjektet lokalt.
 1. Klon repositoriet:
 
 ```bash
-git clone https://github.com/gronnern/famely.git
-cd famely
+git clone https://github.com/gronnern/famely-material-ui.git
+cd famely-material-ui
 ```
 
 ## Installer avhengigheter:
